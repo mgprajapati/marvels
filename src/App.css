@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+
+
+.err-msg{
+  color: red;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +43,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.demo{
+  margin-left: 40vw;
+}
+
+.first-form{
+  margin-left: 40vw;
+  margin-top: 5vw;
+}
+
+.btn-submit{
+  background-color: #61dafb;
+  height: 2vw;
+  width: 5vw;
+  border: 0px;
+  border-radius: 5px;
+  
+}
+.default-none{
+  Outline:none;
 }
